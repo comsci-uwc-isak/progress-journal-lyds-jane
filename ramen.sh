@@ -13,23 +13,23 @@ read flavour
 
 if [ $flavour=1 ]; then
         let flavourprice=600
-	let flavourname="Salt"
+	let flavourname==Salt
 fi
 if [ $flavour=2 ]; then
-        let flavourprice=800
-	let flavourname="Picanto-Beef"
+        let flavourprice==800
+	let flavourname=Picanto-Beef
 fi
 if [ $flavour=3 ]; then
         let flavourprice=800
-	let flavourname="Chili-Tomato"
+	let flavourname==Chili-Tomato
 fi
 if [ $flavour=4 ]; then
         let flavourprice=1000
-	let flavourname="Vegetable"
+	let flavourname==Vegetable
 fi
 if [ $flavour=5 ]; then
         let flavourprice=1200
-	let flavourname="Tantanmen"
+	let flavourname==Tantanmen
 fi
 echo -n "You have selected $flavourname ."
 echo "Price: $flavourprice yen."
