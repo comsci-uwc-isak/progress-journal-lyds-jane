@@ -41,8 +41,8 @@ The addition and subtraction components work well! However, the multiplication a
 
 I *think* that this is due to a syntax error in assigning the variables.
 
-	- Whenever I try to multiply numbers, the product is 0.
-	- Whenever I try to divide number, I get the eorror message `calculator.sh: line 19: ((: quotient=arg/0 : division by 0 (error token is " ")`
+Whenever I try to multiply numbers, the product is 0.
+Whenever I try to divide number, I get the eorror message `calculator.sh: line 19: ((: quotient=arg/0 : division by 0 (error token is " ")`
 
 This leads me to believe that bash is reading the initial product and quotient variables as 0.
 

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#This program counts the days until fall break
+
+currentDate=`date +%s`
+fallBreak=(( `date +%s` --date "2019-10-21" ))
+
+(( secondsBetween = $fallBreak - $currentDate ))
+
+(( difference =  $secondsBetween / 86 400 ))
+
+echo "There are " $difference " days until fall break"
